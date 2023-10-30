@@ -1,6 +1,6 @@
 .title-section {
     background-color: #ffffff;
-    padding: 5px;
+    padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -20,7 +20,7 @@ body {
 
 .container {
     max-width: 600px;
-    margin: 60px auto 0 auto;
+    margin: 10px auto 10px auto;
     background-color: #ffffff;
     padding: 5px;
     padding-bottom: 30px;
@@ -42,8 +42,6 @@ body {
         background-repeat: no-repeat;
         background-attachment: fixed;
         position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
         text-align: center;
         overflow: auto;
@@ -52,6 +50,7 @@ body {
         flex-direction: column;
         justify-content: center;
         letter-spacing: 3px;
+        margin: 0;
     }
     .overlay {
         background-color: rgba(0, 0, 0, 0.6);
