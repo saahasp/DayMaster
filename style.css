@@ -16,13 +16,18 @@
         letter-spacing: 3px;
         margin: 0;
     }
-    .overlay {
-        background-color: rgba(0, 0, 0, 0.6);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
+    body {
+        font-family: 'Arial', sans-serif;
+        background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1707/faitotoro170700006/82184389-back-to-school-doodle-seamless-pattern-background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        overflow: auto;
+        letter-spacing: 3px;
+}
     .title-section {
         background-color: #ffffff;
         padding: 0px;
