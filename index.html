@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Planner App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>DayMaster</h1>
+      <h2>Your Ultimate Time Navigator</h2>
+        <div class="input-section">
+            <label for="event-date">Event Date:</label>
+            <input type="date" id="event-date">
+            <label for="start-time">Start Time:</label>
+            <input type="time" id="start-time">
+            <div id="events">
+                <div class="event">
+            <input type="text" placeholder="Event Name">
+            <input type="number" placeholder="Duration (minutes)">
+            <input type="time" placeholder="Due Time">
+            <select class="event-order">
+                <!-- Order numbers will be dynamically generated -->
+            </select>
+        </div>
+            </div>
+            <button id="add-event">Add Event</button>
+            <button id="schedule-events">Schedule Events</button>
+            <button id="restart-schedule">Restart Schedule</button>
+        </div>
+        <div id="schedule">
+            <!-- Schedule will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

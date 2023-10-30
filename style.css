@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1707/faitotoro170700006/82184389-back-to-school-doodle-seamless-pattern-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: auto;
+    letter-spacing: 3px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    max-height: 100%;
+    overflow-y: auto;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 500%;
+    color: #163769;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 15px;
+    color: #899ab3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 7;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    margin-top: 20px;
+}
+
+label, input, button, select {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    letter-spacing: 3px;
+}
+
+.event {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    letter-spacing: 3px;
+}
+
+button {
+    background-color: #719cd9;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#schedule {
+    margin-top: 20px;
+}
