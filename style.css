@@ -35,38 +35,6 @@ body {
     letter-spacing: 3px;
 }
 
-@media (max-width: 100%) {
-    .container {
-        background-image: url('https://media.istockphoto.com/id/943758330/vector/vector-e-learning-pattern-e-learning-seamless-background.jpg?s=612x612&w=0&k=20&c=g-LUAMLrBSk9PxS3UDEsbKrcLwAjjmwvWueUZNHaMek=');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        position: absolute;
-        width: 100%;
-        text-align: center;
-        overflow: auto;
-        word-wrap: break-word;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        letter-spacing: 3px;
-        margin: 0;
-    }
-    .overlay {
-        background-color: rgba(0, 0, 0, 0.6);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-    .title-section {
-        background-color: #ffffff;
-        padding: 0px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0);
-        text-align: center;
-}
-}
-
 h1 {
     font-size: 500%;
     color: #163769;
@@ -126,4 +94,44 @@ button:hover {
 #schedule {
     margin-top: 20px;
     padding: 20px;
+}
+
+@media (max-width: 100%) {
+    .container {
+        background-image: url('https://media.istockphoto.com/id/943758330/vector/vector-e-learning-pattern-e-learning-seamless-background.jpg?s=612x612&w=0&k=20&c=g-LUAMLrBSk9PxS3UDEsbKrcLwAjjmwvWueUZNHaMek=');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        overflow: auto;
+        word-wrap: break-word;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        letter-spacing: 3px;
+        margin: 0;
+    }
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .title-section {
+        background-color: #ffffff;
+        padding: 0px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+        text-align: center;
+    }
+    h1 {
+    font-size: 100%;
+    color: #163769;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    }
 }
