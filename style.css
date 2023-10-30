@@ -21,7 +21,7 @@ body {
     border-radius: 10px;
     text-align: center;
     max-height: 100%;
-    overflow-y: auto;
+    overflow: auto;
     word-wrap: break-word;
     display: flex;
     flex-direction: column;
@@ -71,6 +71,7 @@ h2 {
 
 .input-section {
     margin-top: 20px;
+    padding: 20px;
 }
 
 label, input, button, select {
@@ -108,4 +109,5 @@ button:hover {
 
 #schedule {
     margin-top: 20px;
+    padding: 20px;
 }
