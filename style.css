@@ -61,10 +61,10 @@ body {
         width: 100%;
     }
     .title-section {
-    background-color: #ffffff;
-    padding: 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
-    text-align: center;
+        background-color: #ffffff;
+        padding: 0px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+        text-align: center;
 }
 }
 
