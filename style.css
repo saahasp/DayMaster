@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
     .container {
-        background-image: url('https://media.istockphoto.com/id/943758330/vector/vector-e-learning-pattern-e-learning-seamless-background.jpg?s=612x612&w=0&k=20&c=g-LUAMLrBSk9PxS3UDEsbKrcLwAjjmwvWueUZNHaMek=');
+        /*background-image: url('https://media.istockphoto.com/id/943758330/vector/vector-e-learning-pattern-e-learning-seamless-background.jpg?s=612x612&w=0&k=20&c=g-LUAMLrBSk9PxS3UDEsbKrcLwAjjmwvWueUZNHaMek=');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -13,8 +13,19 @@
         flex-direction: column;
         justify-content: center;
         letter-spacing: 3px;
-        margin: 0;
+        margin: 0;*/
+        background-image: url('https://media.istockphoto.com/id/943758330/vector/vector-e-learning-pattern-e-learning-seamless-background.jpg?s=612x612&w=0&k=20&c=g-LUAMLrBSk9PxS3UDEsbKrcLwAjjmwvWueUZNHaMek=');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
     }
+    
     body {
         font-family: 'Arial', sans-serif;
         background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1707/faitotoro170700006/82184389-back-to-school-doodle-seamless-pattern-background.jpg');
@@ -35,12 +46,12 @@
         text-align: center;
     }
     h1 {
-        font-size: 12px;
+        font-size: 24px;
         color: #163769;
         text-transform: uppercase;
         letter-spacing: 4px;
         font-weight: 100;
-        margin-bottom: 20px;
+        margin: 0;
     }
     .text-box {
         background-color: rgba(255, 255, 255, 0.5);
