@@ -1,14 +1,3 @@
-/*.container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: -1;
-}*/
-
 @media (max-width: 767px) {
     .container {
         background-image: url('https://media.istockphoto.com/id/943758330/vector/vector-e-learning-pattern-e-learning-seamless-background.jpg?s=612x612&w=0&k=20&c=g-LUAMLrBSk9PxS3UDEsbKrcLwAjjmwvWueUZNHaMek=');
@@ -26,16 +15,13 @@
         letter-spacing: 3px;
         margin: 0;
     }
-    .container::before {
-        background-color: rgba(0, 0, 0, 0.4); /* Darker overlay for phones */
-    }
     body {
         font-family: 'Arial', sans-serif;
         background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1707/faitotoro170700006/82184389-back-to-school-doodle-seamless-pattern-background.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        filter: brightness(70%);
+        filter: brightness(50%);
         margin: 0;
         padding: 0;
         height: 100vh;
