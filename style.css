@@ -1,10 +1,11 @@
 @media (max-width: 767px) {
     .container {
-        background-image: url('https://media.istockphoto.com/id/943758330/vector/vector-e-learning-pattern-e-learning-seamless-background.jpg?s=612x612&w=0&k=20&c=g-LUAMLrBSk9PxS3UDEsbKrcLwAjjmwvWueUZNHaMek=');
+        /* background-image: url('https://media.istockphoto.com/id/943758330/vector/vector-e-learning-pattern-e-learning-seamless-background.jpg?s=612x612&w=0&k=20&c=g-LUAMLrBSk9PxS3UDEsbKrcLwAjjmwvWueUZNHaMek=');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        position: absolute;
+        position: absolute; */
+        background-color: rgba(255, 255, 255, 0.9);
         width: 100%;
         text-align: center;
         overflow: auto;
